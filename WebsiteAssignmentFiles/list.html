@@ -11,7 +11,7 @@
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <!--This code defines the "My Webpage" link in the top right corner of the navigation pane-->
-                <a class="navbar-brand" href="">Portfolio</a>
+                <a class="navbar-brand" href="https://kc2283.github.io/WebsiteAssignmentFiles/index.html">Portfolio</a>
                 <!--This code defines the "List" link in the top left corner of the navigation pane-->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="./list.html">Work</a></li>
@@ -45,12 +45,14 @@
                 /*
                 This section creates the base table and finds the root json node.
                 */
+                <center> 
                 var jsonTable = document.createElement("table");
                 var tr = jsonTable.insertRow(-1);   
-                jsonTable.style.width = "50%";
+                jsonTable.sty.width = "75%";
                 let root;
                 for (let prop in data) {
                     root = prop;
+                    </center> 
                 }
 
                 /*
